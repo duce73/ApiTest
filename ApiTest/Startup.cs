@@ -51,6 +51,8 @@ namespace ApiTest
             {
                 
             }
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
 
             app.UseHttpsRedirection();
 
